@@ -1,0 +1,15 @@
+\documentclass{ECUTPaper}
+
+\include{data/setup}
+
+\begin{document}
+	\maketitle
+    \statement
+    \secondcover
+    \clearpage %结束上一页
+	\pagenumbering{Roman} %摘要页码为大写罗马数字
+    \include{data/abstract}
+    \tableofcontents
+	\pagenumbering{arabic} %正文页码为阿拉伯数字
+    \include{data/chapt0}
+\end{document}
